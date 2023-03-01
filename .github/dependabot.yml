@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+    package-ecosystem: "python"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+    target-version: "latest"
+    allow:
+      - dependency-type: "all"
+        packages: ["*"]
+    
